@@ -2,11 +2,11 @@
 
 function loadRepeatedDivs(){
 
-    $("#navigation-bar").load("https://f5cb3c4667ef6cc580ace48677bc3451ff714fe1.googledrive.com/host/0B5kZdBK1QTn1LVZhZTdBdkFURTA/loadnavigationbar.html");
+    $("#navigation-bar").load("js/loadnavigationbar.html");
 
-    $("#contact-pop-up").load("https://f5cb3c4667ef6cc580ace48677bc3451ff714fe1.googledrive.com/host/0B5kZdBK1QTn1LVZhZTdBdkFURTA/loadcontactpopup.html");
+    $("#contact-pop-up").load("js/loadcontactpopup.html");
     
-    $("#footer").load("https://f5cb3c4667ef6cc580ace48677bc3451ff714fe1.googledrive.com/host/0B5kZdBK1QTn1LVZhZTdBdkFURTA/loadfooter.html");
+    $("#footer").load("js/loadfooter.html");
 
 }
 
