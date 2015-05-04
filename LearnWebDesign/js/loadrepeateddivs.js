@@ -1,12 +1,8 @@
 function loadRepeatedDivs(){
 
-    $("#navigation-bar").load("loadnavigationbar.html");
+    $("#navigation-bar").load("js/loadnavigationbar.html");
 
-    $("#contact-pop-up").load("loadcontactpopup.html");
-    
-    $("#google-drive-sidebar").load("#");
-    
-    $("#footnote").load("#");
+    $("#contact-pop-up").load("js/loadcontactpopup.html");
 
 }
 
