@@ -6,4 +6,4 @@ function loadRepeatedDivs(){
 
 }
 
-jQuery(document).ready(function() { loadRepeatedDivs(); });
+$(document).ready(function() { loadRepeatedDivs(); });
