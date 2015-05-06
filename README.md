@@ -1,4 +1,6 @@
-MrMendonez.github.io
-====================
+DarrylMendonez
+==============
 
-#Welcome to Intro Web Design!
+A nerdy internet computer hip-hop head
+
+This page will document the many aspects of my life =)
