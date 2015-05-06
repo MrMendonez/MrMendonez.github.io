@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+    <meta name="author" content="Darryl Mendonez used Bootstrap framework by Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Learn Web Design</title>
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-lightbox.min.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+<body>
+    <!----------------Begin Navbar------------------------------>
+    <div id="navigation-bar"></div>
+    <!---------------End Navbar------Begin Contents------------------------>
+    <div class="example">
+        <ul class="thumbnails">
+            <li class="span2">
+                <a data-toggle="lightbox" href="#demoLightbox" class="thumbnail">
+                    <img src="images/pics/1.jpg" alt="Click to view the lightbox">
+                </a>
+            </li>
+            <div id="demoLightbox" class="lightbox hide fade in" tabindex="-1" role="dialog" aria-hidden="false" style="position: fixed; width: 720px; height: 484px; top: 147px; left: 50%; margin-left: -360px; display: block;">
+                <div class="lightbox-content" style="width: 700px; height: 464px;">
+                    <img src="images/pics/1.jpg">
+                    <div class="lightbox-caption">
+                        <p>Your caption here</p>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+    
+    
+    <!------------End Contents Area---------Begin Footer Bar------------------------>
+    <div id="footer" class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-right">Site built by Darryl Mendonez</p>
+        </div>
+    </div>
+    <!----------------Begin Contact Popup-------------->
+    <div id="contact-pop-up"></div>
+    <!----------------End Contact Popup-------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/loadrepeateddivs.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src = "js/bootstrap-hover-dropdown.js"></script>
+        <script src="js/bootstrap-lightbox.min.js"></script>
+    <script>
+	$(document).ready(function()
+	{
+		prettyPrint();
+	});
+	</script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38085002-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+	</script>
+</body>
+</html>

@@ -1,3 +1,5 @@
+//Learn Web Design
+
 function loadRepeatedDivs(){
 
     $("#navigation-bar").load("js/loadnavigationbar.html");
