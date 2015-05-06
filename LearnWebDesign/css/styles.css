@@ -1,7 +1,9 @@
+
+/*----------The following is for the body to have a margin at the bottom------*/
 body {
     margin-bottom: 80px;
 }
-
+/*----------This is the end of the css for the body to have a margin at the bottom------*/
 .page-header {
     margin-top: 0;
 }

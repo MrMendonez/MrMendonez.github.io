@@ -1,11 +1,15 @@
-//Learn Web Design
+/* Learn Web Design */
 
 function loadRepeatedDivs(){
 
-    $("#navigation-bar").load("js/loadnavigationbar.html");
+    $("#navigation-bar").load("https://4598ceb4dd3fa10814247ba1accd1c31c1c9f9dd.googledrive.com/host/0B5kZdBK1QTn1amM4clB3Vng0SlU/loadnavigationbar.html");
 
-    $("#contact-pop-up").load("js/loadcontactpopup.html");
+    $("#contact-pop-up").load("https://4598ceb4dd3fa10814247ba1accd1c31c1c9f9dd.googledrive.com/host/0B5kZdBK1QTn1amM4clB3Vng0SlU/loadcontactpopup.html");
+    
+    $("#google-drive-sidebar").load("#");
+    
+    $("#footnote").load("#");
 
 }
 
-$(document).ready(function() { loadRepeatedDivs(); });
+jQuery(document).ready(function() { loadRepeatedDivs(); });
