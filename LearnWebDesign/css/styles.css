@@ -39,3 +39,47 @@ body {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
+
+/* Buttons */
+
+.btn-stackexchange {
+  color: #ffffff;
+  background-color: #5184c1;
+  border-color: #185397;
+}
+
+.btn-stackexchange:hover,
+.btn-stackexchange:focus,
+.btn-stackexchange:active,
+.btn-stackexchange.active,
+.open .dropdown-toggle.btn-stackexchange {
+  color: #ffffff;
+  background-color: #3d70ac;
+  border-color: #103662;
+}
+
+.btn-stackexchange:active,
+.btn-stackexchange.active,
+.open .dropdown-toggle.btn-stackexchange {
+  background-image: none;
+}
+
+.btn-stackexchange.disabled,
+.btn-stackexchange[disabled],
+fieldset[disabled] .btn-stackexchange,
+.btn-stackexchange.disabled:hover,
+.btn-stackexchange[disabled]:hover,
+fieldset[disabled] .btn-stackexchange:hover,
+.btn-stackexchange.disabled:focus,
+.btn-stackexchange[disabled]:focus,
+fieldset[disabled] .btn-stackexchange:focus,
+.btn-stackexchange.disabled:active,
+.btn-stackexchange[disabled]:active,
+fieldset[disabled] .btn-stackexchange:active,
+.btn-stackexchange.disabled.active,
+.btn-stackexchange[disabled].active,
+fieldset[disabled] .btn-stackexchange.active {
+  background-color: #5184c1;
+  border-color: #185397;
+}
+
