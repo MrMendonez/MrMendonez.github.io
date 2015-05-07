@@ -42,44 +42,43 @@ body {
 
 /* Buttons */
 
-.btn-stackexchange {
+.btn-youtube {
   color: #ffffff;
-  background-color: #5184c1;
-  border-color: #185397;
+  background-color: #cd332d;
+  border-color: #6e0610;
 }
 
-.btn-stackexchange:hover,
-.btn-stackexchange:focus,
-.btn-stackexchange:active,
-.btn-stackexchange.active,
-.open .dropdown-toggle.btn-stackexchange {
+.btn-youtube:hover,
+.btn-youtube:focus,
+.btn-youtube:active,
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
   color: #ffffff;
-  background-color: #3d70ac;
-  border-color: #103662;
+  background-color: #ac2b26;
+  border-color: #340308;
 }
 
-.btn-stackexchange:active,
-.btn-stackexchange.active,
-.open .dropdown-toggle.btn-stackexchange {
+.btn-youtube:active,
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
   background-image: none;
 }
 
-.btn-stackexchange.disabled,
-.btn-stackexchange[disabled],
-fieldset[disabled] .btn-stackexchange,
-.btn-stackexchange.disabled:hover,
-.btn-stackexchange[disabled]:hover,
-fieldset[disabled] .btn-stackexchange:hover,
-.btn-stackexchange.disabled:focus,
-.btn-stackexchange[disabled]:focus,
-fieldset[disabled] .btn-stackexchange:focus,
-.btn-stackexchange.disabled:active,
-.btn-stackexchange[disabled]:active,
-fieldset[disabled] .btn-stackexchange:active,
-.btn-stackexchange.disabled.active,
-.btn-stackexchange[disabled].active,
-fieldset[disabled] .btn-stackexchange.active {
-  background-color: #5184c1;
-  border-color: #185397;
+.btn-youtube.disabled,
+.btn-youtube[disabled],
+fieldset[disabled] .btn-youtube,
+.btn-youtube.disabled:hover,
+.btn-youtube[disabled]:hover,
+fieldset[disabled] .btn-youtube:hover,
+.btn-youtube.disabled:focus,
+.btn-youtube[disabled]:focus,
+fieldset[disabled] .btn-youtube:focus,
+.btn-youtube.disabled:active,
+.btn-youtube[disabled]:active,
+fieldset[disabled] .btn-youtube:active,
+.btn-youtube.disabled.active,
+.btn-youtube[disabled].active,
+fieldset[disabled] .btn-youtube.active {
+  background-color: #cd332d;
+  border-color: #6e0610;
 }
-
