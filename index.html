@@ -27,15 +27,36 @@
         <!-- Jumbotron -->      
         <div class = "container">
             <div class = "jumbotron">
-                <h1>Welcome! Please be patient as this website is still under construction.</h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <blockquote class="blockquote-reverse"><i>"We're the kind of species that needs a frontier<br>
+                for fundamental biological reasons.<br>
+                Everytime humanity stretches itself<br>
+                it receives a jolt of productive vitality<br>
+                that can carry it for centuries."<br>
+                -Carl Sagan<a href="http://youtu.be/3wJYpRJQVbo" target="blank">*</a></i></blockquote>
             </div>
         </div>
         <!-- End Of Jumbotron -->
         <div class = "container "><!------------------------Begin Menu Area----------------->
-            <!---<div class = "row">
+            <div class = "row">
                 <div class = "col-md-4">
-                    <a href="camerawork.html"><img class="img-responsive center-block img-rounded" src="img/GatesOfVersailles.jpg" vspace="10"></a>
-                    <h3 class="text-center"><a href = "camerawork.html">Camera Work</a></h3>
+                    <a href="camerawork.html"><img class="img-responsive center-block img-rounded" src="img/pics/photography.jpg" vspace="10"></a>
+                    <h3 class="text-center"><a href = "camerawork.html">Photography</a></h3>
                     <p>View pictures and videos of my travels and meaningful moments throughout my life!</p>
                     <a href = "camerawork.html" class = "btn btn-default"><span class="glyphicon glyphicon-picture"></span> View Gallery</a>
                 </div>
@@ -56,15 +77,19 @@
             </div>
         </div><!-- container -->
         <!------------End Menu Area------Begin Footer Bar------------------------>
-
-            
-            
         <div class="container">
             <div id="footer"></div>
         </div>
         <div id="contact-pop-up"></div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $('.jumbotron').hide(0).fadeIn(2000);
+                $('.col-md-4').hide(0).delay(4000).slideDown(2000);
+                $('#footer').hide(0).delay(2000).slideToggle(2500);
+                });
+        </script>
     <script src="js/loadrepeateddivs.js"></script>
     <script src = "js/bootstrap.js"></script>
 </html>
